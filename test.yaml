@@ -1,0 +1,8 @@
+kind: Function
+metadata:
+  name: test
+spec:
+  sources:
+    - "input"
+  sink: "output"
+  replicas: 1

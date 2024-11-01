@@ -1,0 +1,14 @@
+kind: PackageMetadata
+metadata:
+  name: counter-example
+spec:
+  container:
+    image: "unitecoder/counter-example:latest"
+  modules:
+    default:
+      config:
+        serviceName:
+          type: string
+          displayName: "Service Name"
+          doc: "The name of the service."
+          required: false
